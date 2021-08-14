@@ -1,5 +1,5 @@
 SUMMARY = "Layer for building royhills/arp-scan"
-LICENSE = "GPL-3.0-or-later"
+LICENSE = "GPL-3.0"
 LIC_FILES_CHKSUM = "file://COPYING;md5=d32239bcb673463ab874e80d47fae504"
 
 SRC_URI = "git://github.com/royhills/arp-scan/"
