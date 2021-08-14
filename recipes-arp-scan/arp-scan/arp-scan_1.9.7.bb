@@ -12,6 +12,6 @@ do_configure() {
     ./configure
 }
 
-RDEPENDS_${PN} += "libpcap (>= 1.5)"
+DEPENDS = "libpcap"
 
 RPROVIDES_${PN} += "arp-scan"
