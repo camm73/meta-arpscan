@@ -6,6 +6,8 @@ SRC_URI = "git://github.com/royhills/arp-scan/"
 
 SRCREV = "7f88dc0afd10947aca92ff70526a50530b5bae16"
 
+S = "${WORKDIR}/git"
+
 inherit autotools
 
 do_configure_prepend() {
