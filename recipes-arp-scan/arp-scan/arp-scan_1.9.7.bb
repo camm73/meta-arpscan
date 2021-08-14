@@ -1,9 +1,10 @@
 SUMMARY = "Layer for building royhills/arp-scan"
-LICENSE = "MIT"
+LICENSE = "GPL-3.0-or-later"
+LIC_FILES_CHKSUM = "file://COPYING;md5=d32239bcb673463ab874e80d47fae504"
 
-SRC_URI = "https://github.com/royhills/arp-scan/archive/refs/tags/${PV}.tar.gz"
+SRC_URI = "git://github.com/royhills/arp-scan/"
 
-SRC_URI[sha256sum] = "e03c36e4933c655bd0e4a841272554a347cd0136faf42c4a6564059e0761c039"
+SRCREV = "7f88dc0afd10947aca92ff70526a50530b5bae16"
 
 inherit autotools
 
