@@ -8,3 +8,5 @@ SRC_URI[sha256sum] = "e03c36e4933c655bd0e4a841272554a347cd0136faf42c4a6564059e07
 inherit autotools
 
 RDEPENDS = "libpcap (>= 1.5)"
+
+RPROVIDES = "arpscan"
