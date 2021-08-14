@@ -4,7 +4,7 @@ LIC_FILES_CHKSUM = "file://COPYING;md5=d32239bcb673463ab874e80d47fae504"
 
 SRC_URI = "git://github.com/royhills/arp-scan/"
 
-SRCREV = "7f88dc0afd10947aca92ff70526a50530b5bae16"
+SRC_REV = "7f88dc0afd10947aca92ff70526a50530b5bae16"
 
 inherit autotools
 
